@@ -1,31 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap');
+
+
 html, body {
     margin: 0;
 }
 
 body {
     /* border: 1px solid red;  */
+    width: 1440px;
     margin: 0 auto;
-    max-width: 1440px;
+    background-color: hsl(32, 71%, 56%);
+}
+
+/* Font */
+h1{
+    font-family: 'Fraunces', serif;
+}
+
+/* Styling */
+h1{
+    margin: 0;
 }
 
 .container {
-    margin: 150px 350px;
+    /* width: 1440px; */
     display:flex;
-    border: 1px solid red;
+    margin: 150px 420px;    
+    background-color: hsl(0, 0%, 100%);
+    /* border: 1px solid red; */
+
 }
 
 .img-product {
-    width: 550px;
+    width: 300px;
     height: 450px;
-    background-image: url('../images/image-product-desktop.jpg');
+    /* background-image: url('../images/image-product-desktop.jpg'); */
     background-size: cover;
 }
 
 
 .product-section {
-    margin-left: 25px;
+    padding-left: 25px;
+    padding-right: 35px;
+    /* padding-right: 75px; */
+    /* border: 1px solid red; */
+
 }
 
 .attribution {
     text-align: center;
 }
+
+
+/* 
+    9/30/2023
+    I was having a problem with the div that I was using for an img. 
+    Everyting I was adding more space to margin right. Either the product section would cover the 
+    image or the width of the image would shrink. 
+    I wanted the image to not be affected. 
+    
+    What I tried: 
+    I changed the div element containing the image to an image element. 
+    That seemed to work to prevent the image from losing it size.*/

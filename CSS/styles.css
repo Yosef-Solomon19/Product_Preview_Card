@@ -9,7 +9,10 @@ body {
     /* border: 1px solid red;  */
     width: 1440px;
     margin: 0 auto;
+    background-color: grey;
     background-color: hsl(31, 55%, 90%);
+    /* background-color: hsl(31, 55%, 90%); 
+        background-color: grey;*/
     
 }
 
@@ -28,7 +31,24 @@ h5{
 .text-description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    /* Work on the line height  10/1/2023 */
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.pricing h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.pricing span { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.order-product button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 
@@ -36,11 +56,16 @@ h5{
 h1{
     margin: 0;
     padding: 0;
+    margin-bottom: 20px;    
 }
 
 h5{
     color: hsl(228, 12%, 48%);
-    padding-top: 15px;
+    padding-top: 10px;
+}
+
+h3 {
+    color:hsl(158, 36%, 37%)
 }
 
 .container {
@@ -65,7 +90,6 @@ h5{
     border-bottom-left-radius: 8px;
 }
 
-
 .product-section {
     background-color: hsl(0, 0%, 100%);
     border-top-right-radius: 8px;
@@ -82,6 +106,35 @@ h5{
 }
 
 
+.pricing {
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    align-items: center;
+}
+
+.pricing span {
+    text-decoration: line-through;
+    margin-left: 20px;
+    color: hsl(228, 12%, 48%);
+}
+
+.order-product {
+    text-align: center;
+    margin: 25px 0 30px 0;
+}
+
+.order-product button {
+    border: none;
+    outline: none;
+    padding: 15px 60px;
+    background-color: hsl(158, 36%, 37%);
+    color: #f8f8f8;
+    border-radius: 8px;
+}
+
 /* 
     9/30/2023
     I was having a problem with the div that I was using for an img. 
@@ -92,3 +145,5 @@ h5{
     What I tried: 
     I changed the div element containing the image to an image element. 
     That seemed to work to prevent the image from losing it size.*/
+
+    /* Work on the line height  10/1/2023 */

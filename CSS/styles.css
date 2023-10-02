@@ -9,7 +9,8 @@ body {
     /* border: 1px solid red;  */
     width: 1440px;
     margin: 0 auto;
-    background-color: hsl(32, 71%, 56%);
+    background-color: hsl(31, 55%, 90%);
+    
 }
 
 /* Font */
@@ -25,10 +26,8 @@ h1{
 .container {
     /* width: 1440px; */
     display:flex;
-    margin: 150px 420px;    
-    background-color: hsl(0, 0%, 100%);
-    /* border: 1px solid red; */
-
+    margin: 175px 420px;    
+    /* background-color: hsl(0, 0%, 100%); */
 }
 
 .img-product {
@@ -36,10 +35,16 @@ h1{
     height: 450px;
     /* background-image: url('../images/image-product-desktop.jpg'); */
     background-size: cover;
+    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 
 .product-section {
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     padding-left: 25px;
     padding-right: 35px;
     /* padding-right: 75px; */

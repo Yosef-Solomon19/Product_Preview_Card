@@ -68,7 +68,7 @@ h3 {
     color:hsl(158, 36%, 37%)
 }
 
-.container {
+main {
     /* width: 1440px; */
     display:flex;
     margin: 175px 420px;    
@@ -90,7 +90,7 @@ h3 {
     border-bottom-left-radius: 8px;
 }
 
-.product-section {
+section {
     background-color: hsl(0, 0%, 100%);
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;

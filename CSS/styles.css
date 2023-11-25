@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&family=Montserrat:wght@500;700&display=swap');
+
 html, body {
     margin: 0;
 }
 
 body {
-    /* border: 1px solid red;  */
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
+    
 }
 
+/* Font */
+
+
+/* Styling */
+
+
+/* 
+    9/30/2023
+    I was having a problem with the div that I was using for an img. 
+    Everyting I was adding more space to margin right. Either the product section would cover the 
+    image or the width of the image would shrink. 
+    I wanted the image to not be affected. 
+    
+    What I tried: 
+    I changed the div element containing the image to an image element. 
+    That seemed to work to prevent the image from losing it size.*/
+
+    /* Work on the line height  10/1/2023 */

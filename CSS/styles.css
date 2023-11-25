@@ -4,28 +4,7 @@ html, body {
 
 body {
     /* border: 1px solid red;  */
-    margin: 0 auto;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
-.container {
-    margin: 150px 350px;
-    display:flex;
-    border: 1px solid red;
-}
-
-.img-product {
-    width: 550px;
-    height: 450px;
-    background-image: url('../images/image-product-desktop.jpg');
-    background-size: cover;
-}
-
-
-.product-section {
-    margin-left: 25px;
-}
-
-.attribution {
-    text-align: center;
-}

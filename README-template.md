@@ -46,22 +46,22 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## My process
 
+I started off initally drawing the whole site. I'd then outline sections that I think could be wrapped in a div or semantic HTML i.e main
+header, or section.
+
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned using the <br> tag can be helpful to create how I want the new lines to look. It can also be another tool to use instead of having to shrink the content with margin/padding or width to have the text wrapped in a certain way.
+I'm starting like the responsiveness of flexbox and how its a nice alternative instead of having to set a width. I want to start using flexbox
+more often.
+
+**Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.- to be deleted**
 
 To see how you can add code snippets, see below:
 
@@ -87,6 +87,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
+I think I've gotten close to this as possbile. And I want to avoid falling into the trap of having my work look pixel perfect to the original as it won't really help me that much in improving my skills overall.
+
 Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
 
 **Note: Delete this note and the content within this section and replace with your own plans for continued development.**
@@ -100,8 +102,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Yosef](https://www.your-site.com)
+- Frontend Mentor - [@y@Yosef-Solomon19](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**

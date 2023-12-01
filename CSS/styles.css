@@ -28,6 +28,7 @@ h5{
     font-size: 14px;
 }
 .pricing h3 {
+    font-family: 'Fraunces', serif;
     margin: 0;
     font-size: 30px;
 }
@@ -70,7 +71,7 @@ main {
 section {    
     padding-left: 25px;
     padding-right: 45px;
-    background-color: aliceblue;
+    background-color: hsl(0, 0%, 100%);
 }
 
 section h5 h1 {
@@ -84,11 +85,31 @@ section h1 {
     
 }
 
-section p { 
-    /* border: 1px solid blue; */
-    /* max-width: 190px; */
-    
+.pricing {
+    margin
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
 }
+
+.pricing h3 {
+    color: hsl(158, 36%, 37%);
+}
+
+.order-product {
+    margin: auto; 
+}
+.order-product button{
+    color: #fff;
+    background-color: hsl(158, 36%, 37%) ;
+    border: none;
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 15px 60px;
+
+}
+
+
 
 /* 
     9/30/2023

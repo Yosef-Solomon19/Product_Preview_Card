@@ -47,7 +47,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ## My process
 
 I started off initally drawing the whole site. I'd then outline sections that I think could be wrapped in a div or semantic HTML i.e main
-header, or section.
+header, or section. I started off working on the structure in HTML first then I'd work on the styling through CSS. I sometimes will go back and forth between HTML and CSS if I need to adjust part of the structure.
 
 ### Built with
 
@@ -59,6 +59,7 @@ header, or section.
 
 I learned using the <br> tag can be helpful to create how I want the new lines to look. It can also be another tool to use instead of having to shrink the content with margin, padding or width to have the text wrapped in a certain way.
 I'm starting like the responsiveness of flexbox and how its a nice alternative instead of having to set a width. I want to start using flexbox more often.
+Using the <img> tag for a picture instead of a <div> tag can be useful when it comes to retaining the size of the image even after setting its wdith. Not sure if I did something wrong but, when an img is wrapped in a <div> tag and your adding space, or padding around. It can cause the image to lose its size.
 
 **Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.- to be deleted**
 

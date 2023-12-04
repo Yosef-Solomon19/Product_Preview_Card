@@ -56,4 +56,4 @@ I think I've gotten close to this as possbile. And I want to avoid falling into 
 
 ## Author
 
-- Frontend Mentor - [@y@Yosef-Solomon19](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Yosef-Solomon19](https://www.frontendmentor.io/profile/yourusername)

@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./Final_img/Finalized_work.png](./Final_img/Finalized_work.png)
+![Screenshot solution for this challenge](./Final_img/Finalized_work.jpg)
 
 This is the screenshot for my solution for this challenge.
 

@@ -95,6 +95,10 @@ section h1 {
     color: hsl(158, 36%, 37%);
 }
 
+.pricing span {
+    text-decoration: line-through;
+}
+
 .order-product {
     margin: auto; 
 }
